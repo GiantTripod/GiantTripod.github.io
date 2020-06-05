@@ -13,6 +13,13 @@ header {
     background: #333;
 }
 
+.page-1 {
+    background-image: url(/GiantTripod.github.io/Resources/joshua-fuller-RSPVXlTfg1Y-unsplash.jpg);
+    background-position: cover;
+    height: 100vh;
+    width: 100%;
+}
+
 span {
     min-height: 100%;
     text-align: center;
