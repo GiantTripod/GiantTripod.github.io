@@ -17,7 +17,7 @@ header {
     width: 100%;
 }
 .hero {
-    background-image: url(Resources/joshua-fuller-RSPVXlTfg1Y-unsplash.jpg);
+    background: url(Resources/joshua-fuller-RSPVXlTfg1Y-unsplash.jpg) no-repeat center center fixed;
     background-size: 100% 100vh;
     background-repeat: no-repeat;
     width: 100%;
