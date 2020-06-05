@@ -24,8 +24,14 @@ header {
     height: 100vh;
     text-align: center;
     color: white;
+    position: relative;
 }
-
+.hero p {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+}
 span {
     min-height: 100%;
     text-align: center;
