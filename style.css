@@ -15,12 +15,12 @@ header {
     top: 0;
     width: 100%;
     z-index: 99;
-    margin-bottom: 10px;
+    height: auto;
 }
 
 #page-1, #page-2, #page-3, #page-4, #page-5 {
     width: 100%;
-    margin-top: 3.5%;
+    margin-top: 3.3rem;
 }
 .hero {
     background: url(Resources/joshua-fuller-RSPVXlTfg1Y-unsplash.jpg) no-repeat center center fixed;
@@ -85,6 +85,10 @@ span {
     .topnav a.icon {
         display: inline-block;
 
+    }
+    #page-1, #page-2, #page-3, #page-4, #page-5 {
+        width: 100%;
+        margin-top: 3.3rem;
     }
     
 }
