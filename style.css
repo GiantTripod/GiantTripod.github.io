@@ -46,13 +46,13 @@ span {
     color: #f2f2f2;
 }
 
-.topnav {
+.navigation {
     margin-left: auto;
     overflow: hidden;
 }
 
 
-.topnav a {
+.navigation a {
     font-size: 1rem;
     height: 100%;
     color: #f2f2f2;
@@ -63,12 +63,12 @@ span {
     outline: 0;
 }
 
-.topnav a:hover {
+.navigation a:hover {
     background-color: white;
     color: white;
 }
 
-.topnav .icon {
+.navigation .icon {
     display: none;
 }
 
@@ -78,11 +78,11 @@ span {
     .hero {
         width: 100%;
     }
-    .topnav a:not(:first-child) {
+    .navigation a:not(:first-child) {
         display: none;
     }
 
-    .topnav a.icon {
+    .navigation a.icon {
         display: inline-block;
 
     }
@@ -93,22 +93,22 @@ span {
     
 }
 @media screen and (max-width: 730px) {
-    .topnav.responsive {
+    .navigation.responsive {
         display: flex;
         flex-direction: column;
         width: 300px;
         position: relative;
     }
-    .topnav.responsive .icon {
+    .navigation.responsive .icon {
         position: absolute;
         top: 0;
         right: 0;
         display: inline-block;
     }
-    .topnav a:hover {
+    .navigation a:hover {
         background: none;
     }
-    .topnav.responsive a {
+    .navigation.responsive a {
         display: block;
     }
   }
