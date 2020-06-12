@@ -37,12 +37,13 @@ header {
     top: 15%;
     left: 0;
     right: 0;
+    font-size: 1.75em;
 }
 span {
     min-height: 100%;
     text-align: center;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1em;
     color: #f2f2f2;
 }
 
@@ -53,7 +54,7 @@ span {
 
 
 .navigation a {
-    font-size: 1rem;
+    font-size: 1em;
     height: 100%;
     color: #f2f2f2;
     padding: 1rem;
@@ -65,15 +66,48 @@ span {
 
 .navigation a:hover {
     background-color: white;
-    color: white;
+    color: black;
 }
 
 .navigation .icon {
     display: none;
 }
 
+.about-me {
+    padding: 7rem 1rem;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+}
 
+.about-me h2 {
+    display: inline-block;
+    margin-bottom: 5rem;
+    border-right: 5px solid #a3ad16;
+    border-bottom: 5px solid #a3ad16;
+    padding: 1.5rem;
+    font-size: 2em;
+}
+.about-me p {
+    text-align: center;
+    font-size: 1.25em;
+}
 
+.skills {
+    padding: 7rem 1rem;
+    text-align: center;
+}
+.skills-heading {
+    display: inline-block;
+    margin-bottom: 5rem;
+    border-right: 5px solid #a3ad16;
+    border-bottom: 5px solid #a3ad16;
+    font-size: 2em;
+    padding: 1.5rem;
+}
+.skill-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 @media screen and (max-width: 730px) {
     .hero {
         width: 100%;
