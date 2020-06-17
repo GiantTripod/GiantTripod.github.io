@@ -73,9 +73,9 @@ span {
     display: none;
 }
 
-.about-me {
+.about-me, .testimonials {
     padding: 7rem 1rem;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(245, 244, 244);
     text-align: center;
 }
 
@@ -104,7 +104,7 @@ span {
     font-size: 2em;
     padding: 1.5rem;
 }
-.skill-cards {
+.skill-cards, .testimonial-comments {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -130,6 +130,32 @@ span {
     font-size: 1.25em;
     margin-top: 1rem;
 }
+.testimonials h2 {
+    display: inline-block;
+    margin-bottom: 5rem;
+    border-right: 5px solid #a3ad16;
+    border-bottom: 5px solid #a3ad16;
+    padding: 1.5rem;
+    font-size: 2em;
+}
+.testimonial-comment {
+    display: flex;
+    height: 10rem;
+    width: 80%;
+    margin-top: 2rem;
+}
+.testimonial-comment img {
+    width: 30%;
+    border-radius: 50%;
+    margin-right: auto;
+}
+.comment-details p {
+    line-height: 1.25;
+}
+.comment-details h4 {
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 730px) {
     .hero {
         width: 100%;
@@ -146,9 +172,6 @@ span {
         width: 100%;
         margin-top: 3.1rem;
     }
-    
-}
-@media screen and (max-width: 730px) {
     .navigation.responsive {
         display: flex;
         flex-direction: column;
@@ -167,4 +190,15 @@ span {
     .navigation.responsive a {
         display: block;
     }
-  }
+    .testimonial-comment {
+        flex-direction: column;
+        margin-bottom: 7rem;
+        justify-content: space-around;
+    }
+    .testimonial-comment img {
+        margin-left: auto;
+    }
+    .comment-details {
+        margin-top: 1rem;
+    }
+}
