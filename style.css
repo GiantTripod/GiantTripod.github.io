@@ -110,8 +110,7 @@ span {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    align-items: space-between;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .card {
     height: min-content;
@@ -119,10 +118,11 @@ span {
     flex-direction: column;
     margin-bottom: 4rem;
     text-align: center;
-    width: 15rem;
+    width: 17rem;
+    margin-right: 1rem;
 }
 .card img {
-    height: 15rem;
+    height: 17rem;
     margin-left: auto;
     margin-right: auto;
 }
