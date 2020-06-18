@@ -189,6 +189,7 @@ span {
 .footer-secondary {
     position: absolute;
     bottom: 0;
+    right: 0;
     width: 100%;
 }
 @media screen and (max-width: 730px) {
