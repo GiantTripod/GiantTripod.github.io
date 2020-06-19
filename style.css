@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    position: relative;
 }
 
 header {
@@ -192,11 +193,13 @@ span {
 }
 .blog-card {
   display: flex;
+  flex-direction: row;
   margin: 1rem auto;
   background: rgb(245, 244, 244);
   font-size: 1em;
   line-height: 1.50;
   border-radius: 10px;
+  width: 100%;
 }
 .image {
   width: 50%;
@@ -266,5 +269,9 @@ span {
     }
     .comment-details {
         margin-top: 1rem;
+    }
+    .blog-card {
+        flex-direction: row;
+        width: 100%;
     }
 }
